@@ -16,15 +16,23 @@ AlphaSphere is a premium MERN-stack social media platform featuring a gorgeous, 
 ```text
 CodeAlpha_SocialMediaPlatform/
 ├── client/                 # Frontend React Application
-│   ├── public/             # Branding icons, manifest, index.html
+│   ├── public/             # Unified AS favicons, logo assets, manifest, index.html
 │   └── src/
-│       ├── components/     # Reusable UI widgets & Flex wrappers
-│       ├── scenes/         # Page Views (login, home, navbar, widgets)
-│       └── state/          # Redux slices
-└── server/                 # Backend Node.js / Express Server
-    ├── controllers/        # Route logic handlers (auth, users, posts)
-    ├── models/             # Mongoose Schemas (User, Post)
-    └── routes/             # REST API Endpoint specifications
+│       ├── components/     # Reusable global layouts & UI wrappers
+│       ├── scenes/         # Page Views & layout structures
+│       │   ├── loginPage/  # Premium glassmorphic authentication forms
+│       │   ├── homePage/   # Main feed dashboard view
+│       │   ├── navbar/     # Navigation layout with theme selectors
+│       │   └── widgets/    # Social profile, posting, and feed widgets
+│       ├── state/          # Redux toolkit store configuration & persist slices
+│       └── theme.js        # Premium dark/light mode palette setups
+└── server/                 # Backend Node.js / Express API Server
+    ├── controllers/        # Logical controllers (auth, users, posts)
+    ├── data/               # Seed data configuration for database backup
+    ├── middleware/         # Security token verification interceptors
+    ├── models/             # Mongoose DB Schemas (User, Post)
+    ├── public/assets/      # Local media uploads & picture directories
+    └── routes/             # RESTful API Route specifications
 ```
 
 ---
