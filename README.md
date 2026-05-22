@@ -49,6 +49,12 @@ npm run start
 
 ---
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to open a pull request or check the issues page.
+
+---
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
